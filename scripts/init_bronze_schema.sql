@@ -1,4 +1,4 @@
-/*====================================================================================================
+p/*====================================================================================================
   SCRIPT PURPOSE
   ----------------------------------------------------------------------------------------------------
   This script rebuilds a set of bronze-layer tables used to ingest raw data from CRM, ERP, and product
@@ -99,7 +99,7 @@ GO
 
 -- Purpose: Create the product category table to store raw product classification data
 -- Example result: Command(s) completed successfully.
-CREATE TABLE bronze.px_cat_g1v2 (
+CREATE TABLE bronze.erp_px_cat_g1v2 (
     ID           NVARCHAR(50),
     CAT          NVARCHAR(50),
     SUBCAT       NVARCHAR(50),
